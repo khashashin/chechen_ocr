@@ -18,12 +18,12 @@ After preprocessing the images, you can start editing the boxes using gImageRead
 
 1. Open gImageReader and import the images from the `images` folder with the `ocr_` prefix.
 
-![img.png](img.png)
-![img_1.png](img_1.png)
+![img.png](docs/img.png)
+![img_1.png](docs/img_1.png)
 
 2. Edit the boxes. Note that you need to select the character as word, not as a line.
 
-![img_2.png](img_2.png)
+![img_2.png](docs/img_2.png)
 
 3. Export the boxes to a `html` file and save them under the `html_box` folder.
 4. Extract the boxes from the `html` file using the `box_extractor.py` script.
