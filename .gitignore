@@ -292,3 +292,11 @@ pyrightconfig.json
 # ignore all files from ./images folder
 images/*
 !images/.gitkeep
+
+# ignore all files from ./html_box folder
+html_box/*
+!html_box/.gitkeep
+
+# ignore all files from ./boxes folder
+boxes/*
+!boxes/.gitkeep

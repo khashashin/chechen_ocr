@@ -56,6 +56,8 @@ if __name__ == '__main__':
     print('Image Preprocessor')
     # get all images from ./images folder
     for image in os.listdir('./images'):
+        if image == '.gitkeep':
+            continue
         print('Processing image: ' + image)
         ocr_image = process_image_for_ocr('./images/' + image)
         cv2.imwrite('./images/ocr_' + image, ocr_image)
