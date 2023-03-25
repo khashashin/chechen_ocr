@@ -10,7 +10,6 @@ BINARY_THREHOLD = 180
 
 
 def process_image_for_ocr(file_path):
-    # TODO : Implement using opencv
     temp_filename = set_image_dpi(file_path)
     im_new = remove_noise_and_smooth(temp_filename)
     return im_new
